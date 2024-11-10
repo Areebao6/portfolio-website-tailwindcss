@@ -1,8 +1,8 @@
 "use client"
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
-import { TbMailBolt } from "react-icons/tb"
-import { BsTelephoneInbound } from "react-icons/bs"
+import { SiGmail } from "react-icons/si";
+import { BsFillTelephoneFill } from "react-icons/bs";
 
 
 const page = () => {
@@ -29,10 +29,10 @@ const page = () => {
   </h2>
   <p  className='text-3xl  mt-5'>`Send me an e-mail or give me call to collab`</p>
   <div className='flex gap-3 items-center hover:text-purple-500 '>
-    <TbMailBolt size={50}/>areebashad1234@g-mail.com
+    <SiGmail size={50}/>areebashad1234@g-mail.com
   </div>
   <div className='flex gap-3  mt-4 items-center hover:text-teal-500'>
-    <BsTelephoneInbound size={50} /> (021) 000-0000
+    < BsFillTelephoneFill size={50} /> (021) 000-0000
   </div>
 
 
